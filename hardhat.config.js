@@ -26,10 +26,9 @@ module.exports = {
         count: 1000
       }
     },
-    development: {
-      url: "http://127.0.0.1:8545",     // Localhost (default: none)
-      gas: 5000000,
-      gasPrice: 200000000000,
+    okcMain: {
+      url: 'https://exchainrpc.okex.org',
+      accounts:[process.env.PRIVATE_KEY_MAIN]
     },
   },
 
